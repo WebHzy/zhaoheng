@@ -1,0 +1,58 @@
+/*初始化css*/
+body{
+    margin: 0;
+    background: #f5f5f5;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,img,a,input,ol,li{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+/*footer*/
+.footer-box{
+    width: 1200px;
+    height: 400px;
+    margin: 40px auto 0;
+    /*background: #fff;*/
+}
+.footer-box>.footer-top{
+    width: 1200px;
+    height: 200px;
+    border-bottom: 1px solid #efefef;
+}
+.footer-box>.footer-top>.f-top-box{
+    width: 910px;
+    height: 200px;
+    margin: auto;
+}
+.footer-box>.footer-top>.f-top-box>ul{
+    float: left;
+    width: 130px;
+    margin-top: 40px;
+}
+.footer-box>.footer-top>.f-top-box>ul>li>h4{
+    color:#696969;
+}
+.footer-box>.footer-top>.f-top-box>ul>li{
+    line-height: 30px;
+}
+.footer-box>.footer-top>.f-top-box>ul>li>a{
+    color:#757575;
+    font-size: 14px;
+}
+.footer-box>.footer-top>.f-top-box>ul>li>a:hover{
+    color:#ef363e;
+}
+.footer-box>#footer-bot{
+    text-align: center;
+}
+.footer-box>#footer-bot>p{
+    text-align: center;
+    color: #6a6a6a;
+    line-height: 24px;
+    font-size: 14px;
+}
+.footer-box>#footer-bot>p:first-child{
+    margin-top: 50px;
+}

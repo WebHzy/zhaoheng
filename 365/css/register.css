@@ -1,0 +1,214 @@
+/*初始化css*/
+body{
+    margin: 0;
+    background: #ffffff;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,img,a,input,ol,li{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    border: 0;
+}
+/*header*/
+#hd-top{
+    width: 1200px;
+    height: 80px;
+    margin: 50px auto;
+    line-height: 80px;
+}
+#hd-left{
+    float: left;
+}
+#hd-left>a>img,#hd-left>span,#hd-left>h2{
+    float: left;
+}
+#hd-left>h2{
+    font-weight:normal;
+}
+#hd-left>span{
+    width: 2px;
+    height: 40px;
+    background: #cccccc;
+    margin: 20px 20px;
+}
+#hd-right{
+    float: right;
+    margin-right: 30px;
+}
+/*form*/
+#form-box{
+    width:1200px;
+    height:400px;
+    margin: auto;
+}
+#form-left{
+    margin-left:100px;
+    width: 580px;
+    float: left;
+}
+#form-right{
+    width: 361px;
+    height:396px;
+    border: 2px solid #efefef;
+    float: right;
+}
+#form-right>.form-r-top{
+    width: 361px;
+    height: 40px;
+}
+#form-right>.form-r-top>li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #fbfbfb;
+    float: left;
+    border-bottom: 1px solid #efefef;
+    position: relative;
+    cursor: pointer;
+}
+#form-right>.form-r-top>li>div.line{
+    width: 180px;
+    height: 2px;
+    background: #e50014;
+    position: absolute;
+    bottom: 0;
+}
+#form-right>.form-r-top>li.bgc{
+    background: white;
+}
+#form-right>.form-r-top>li>a{
+    color: #666;
+}
+#form-right>.form-r-top>li>a.col{
+    color: #e50014;
+}
+#form-right>.form-r-top>li:first-child{
+    border-right: 1px solid #efefef;
+}
+#form-right>.form-r-top>li:last-child>div.line{
+    display: none;
+}
+#form1{
+    width: 308px;
+    margin: auto;
+}
+/*form-tab1*/
+.form-tab1>li{
+    margin-top: 30px;
+}
+.form-tab1>li:nth-child(1){
+    font-weight: bold;
+    color: #666;
+}
+.form-tab1>li:nth-child(2)>div{
+    height: 40px;
+    width: 100px;
+    border: 1px solid #bdbdbd;
+    border-right: none;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.form-tab1>li:nth-child(2)>input{
+    width: 205px;
+    height: 40px;
+    outline: none;
+    text-indent: 10px;
+    font-size: 14px;
+    border: 1px solid #bdbdbd;
+}
+.form-tab1>li:nth-child(3)>input{
+    width: 166px;
+    height: 40px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+    text-indent: 10px;
+    float: left;
+}
+.form-tab1>li:nth-child(3)>img{
+    margin-left: 10px;
+    width: 130px;
+    height: 42px;
+}
+.form-tab1>li:nth-child(2)>div>img{
+    margin-top: 8px;
+}
+.form-tab1>li:nth-child(4)>input:first-child{
+    width: 166px;
+    height: 40px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+    text-indent: 10px;
+    float: left;
+}
+.form-tab1>li:nth-child(4)>input:last-child{
+    width: 130px;
+    height: 42px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+    background: #f7f7f7;
+    margin-left: 10px;
+    color: #666;
+}
+.form-sub{
+    margin-top: 40px;
+}
+.form-sub>input{
+    width: 308px;
+    height: 36px;
+    background: #ef363e;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-r-bot{
+    width: 308px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.form-r-bot>li{
+    float: left;
+}
+.form-r-bot>li:first-child{
+    margin-right: 20px;
+}
+.form-r-bot>li:nth-child(1),.form-r-bot>li:nth-child(2){
+    float: left;
+}
+.form-r-bot>li:nth-child(1)>img,.form-r-bot>li:nth-child(2)>img{
+    position: relative;
+    top:6px;
+    margin-right: 10px;
+}
+.form-r-bot>li:nth-child(3){
+    float: right;
+}
+.form-r-bot>li:nth-child(3)>a{
+    color:#e90014;
+}
+.form-r-bot>li>a{
+    color: #666;
+    font-size: 14px;
+}
+/*footer*/
+#footer{
+    clear: both;
+    width: 1200px;
+    margin: 160px auto 0;
+    text-align: center;
+}
+#footer>p{
+    margin: 6px 0;
+    color: #666;
+    font-size: 14px;
+}
+#footer>p:last-child{
+    margin-top: 26px;
+}
+#footer>p:last-child>img:first-child{
+    margin-right: 20px;
+}

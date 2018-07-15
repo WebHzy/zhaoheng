@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>365</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+
+</head>
+<body>
+    <!--header-->
+    <div id="header"></div>
+    <!--cart-main-->
+    <div id="cart-main">
+        <div id="cart-top">
+            <div class="bor">我的购物车 <span class="bg">1</span></div>
+            <div>确认订单信息 <span>2</span></div>
+            <div>成功提交订单 <span>3</span></div>
+        </div>
+        <div id="cart-con">
+            <div id="con-top">
+                <div>
+                    <input type="checkbox" id="selAll">
+                    <label for="selAll">全选</label>
+                </div>
+                <div>商品</div>
+                <div>价格</div>
+                <div>数量</div>
+                <div>操作</div>
+            </div>
+            <div id="con-box"></div>
+            <!--<div class="con-bot">-->
+                <!--<div>-->
+                    <!--<input type="checkbox" class="selitem">-->
+                <!--</div>-->
+                <!--<div>-->
+                    <!--<a href=""><img src="img/products/pic/xs/applexs/1.jpg" height="60" width="60"/></a>-->
+                <!--</div>-->
+                <!--<div>-->
+                    <!--<a href="">Apple iPhone 8(A1863) 256GB 深空灰色 移动联通电信4G手机</a>-->
+                <!--</div>-->
+                <!--<div>￥6088.00</div>-->
+                <!--<div>-->
+                    <!--<span class="reduce">-</span>-->
+                    <!--<input type="text" value="1">-->
+                    <!--<span class="add">+</span>-->
+                <!--</div>-->
+                <!--<div>-->
+                    <!--<a href="">删除</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+        <div id="cart-bot">
+                <div class="bot-left">
+                    <a href="" id="delSel">取消全选</a>
+                    <a href="" id="delete">清空购物车</a>
+                </div>
+                <div class="bot-right">
+                    <span>产品数量总计:<b id="shul">0</b></span>
+                    <span>产品金额总计:<b id="totalPrice">￥0.00</b></span>
+                    <a href="">去结算</a>
+                </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div id="footer"></div>
+</body>
+</html>

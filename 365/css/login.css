@@ -1,0 +1,308 @@
+/*初始化css*/
+body{
+    margin: 0;
+    background: #ffffff;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,img,a,input,ol,li{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    border: 0;
+}
+/*header*/
+#hd-top{
+    width: 1200px;
+    height: 80px;
+    margin: 50px auto;
+    line-height: 80px;
+}
+#hd-left{
+    float: left;
+}
+#hd-left>a>img,#hd-left>span,#hd-left>h2{
+    float: left;
+}
+#hd-left>h2{
+    font-weight:normal;
+}
+#hd-left>span{
+    width: 2px;
+    height: 40px;
+    background: #cccccc;
+    margin: 20px 20px;
+}
+#hd-right{
+    float: right;
+    margin-right: 30px;
+}
+/*form*/
+#form-box{
+    width:1200px;
+    height:400px;
+    margin: auto;
+}
+#form-left{
+    margin-left:100px;
+    width: 580px;
+    float: left;
+}
+#form-right{
+    width: 361px;
+    height:396px;
+    border: 2px solid #efefef;
+    float: right;
+}
+#form-right>.form-r-top{
+    width: 361px;
+    height: 40px;
+}
+#form-right>.form-r-top>li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #fbfbfb;
+    float: left;
+    border-bottom: 1px solid #efefef;
+    position: relative;
+    cursor: pointer;
+}
+#form-right>.form-r-top>li>div.line{
+    width: 180px;
+    height: 2px;
+    background: #e50014;
+    position: absolute;
+    bottom: 0;
+}
+#form-right>.form-r-top>li.bgc{
+    background: white;
+}
+#form-right>.form-r-top>li>a{
+    color: #666;
+}
+#form-right>.form-r-top>li>a.col{
+    color: #e50014;
+}
+#form-right>.form-r-top>li:first-child{
+    border-right: 1px solid #efefef;
+}
+#form-right>.form-r-top>li:last-child>div.line{
+    display: none;
+}
+#form1{
+    width: 308px;
+    margin: auto;
+}
+#form1>.form-radio{
+    height: 40px;
+    line-height: 40px;
+}
+#form1>.form-radio>li{
+    float: left;
+}
+#form1>.form-radio>li:last-child>span{
+    margin-left: 40px;
+}
+#form1>.form-radio>li>a{
+    color: #666;
+    font-size: 14px;
+}
+#form1>.form-radio>li>span{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    margin-right: 6px;
+    position: relative;
+    top:1px
+}
+#form1>.form-radio>li>span.ched{
+    width: 3px;
+    height: 3px;
+    border: 5px solid #24a9e4;
+}
+#form1>.form-info{
+    width: 306px;
+    height: 24px;
+    border: 1px solid #faccc6;
+    background: #ffeea9;
+    clear: both;
+    color: #e50014;
+    font-size: 12px;
+    line-height: 24px;
+}
+#form1>.form-info>img{
+    vertical-align: middle;
+    margin: 0 6px;
+    position: relative;
+    top: -2px;
+}
+/*form-tab*/
+#form1>.form-tab>li:nth-child(1)>div,#form1>.form-tab>li:nth-child(2)>div{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #bdbdbd;
+    border-right: none;
+    float: left;
+    text-align: center;
+}
+#form1>.form-tab>li:nth-child(1)>div>img,#form1>.form-tab>li:nth-child(2)>div>img{
+    margin-top: 8px;
+}
+#form1>.form-tab>li:nth-child(1)>input,#form1>.form-tab>li:nth-child(2)>input{
+    width: 265px;
+    height: 40px;
+    outline: none;
+    text-indent: 10px;
+    font-size: 14px;
+    border: 1px solid #bdbdbd;
+}
+.form-tab>li{
+    margin-top: 10px;
+}
+.form-tab>li:nth-child(2){
+    clear: both;
+}
+.form-tab>li:nth-child(3)>input{
+    width: 166px;
+    height: 40px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+    text-indent: 10px;
+    float: left;
+}
+.form-tab>li:nth-child(3)>img{
+    margin-left: 10px;
+    width: 130px;
+    height: 42px;
+}
+/*form-tab1*/
+.form-tab1>li{
+    margin-top: 10px;
+}
+.form-tab1>li:nth-child(1)>div{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #bdbdbd;
+    border-right: none;
+    float: left;
+    text-align: center;
+}
+.form-tab1>li:nth-child(1)>input{
+    width: 265px;
+    height: 40px;
+    outline: none;
+    text-indent: 10px;
+    font-size: 14px;
+    border: 1px solid #bdbdbd;
+}
+.form-tab1>li:nth-child(2)>input{
+    width: 166px;
+    height: 40px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+    text-indent: 10px;
+    float: left;
+}
+.form-tab1>li:nth-child(2)>img{
+    margin-left: 10px;
+    width: 130px;
+    height: 42px;
+}
+.form-tab1>li:nth-child(1)>div>img{
+    margin-top: 8px;
+}
+.form-tab1>li:nth-child(3)>input:first-child{
+    width: 166px;
+    height: 40px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+    text-indent: 10px;
+    float: left;
+}
+.form-tab1>li:nth-child(3)>input:last-child{
+    width: 130px;
+    height: 42px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+    background: #f7f7f7;
+    margin-left: 10px;
+    color: #666;
+}
+
+.form-check{
+    clear: both;
+    height: 40px;
+    width: 308px;
+    line-height: 40px;
+}
+.form-check>input{
+    margin-top: 14px;
+    margin-right: 4px;
+}
+.form-check>input,.form-check>label{
+    float: left;
+    color: #666;
+    font-size: 14px;
+}
+.form-check>a{
+    float: right;
+    color: #666;
+    font-size: 14px;
+}
+.form-sub>input{
+    width: 308px;
+    height: 36px;
+    background: #ef363e;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-r-bot{
+    width: 308px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.form-r-bot>li{
+    float: left;
+}
+.form-r-bot>li:first-child{
+    margin-right: 20px;
+}
+.form-r-bot>li:nth-child(1),.form-r-bot>li:nth-child(2){
+    float: left;
+}
+.form-r-bot>li:nth-child(1)>img,.form-r-bot>li:nth-child(2)>img{
+    position: relative;
+    top:6px;
+    margin-right: 10px;
+ }
+.form-r-bot>li:nth-child(3){
+    float: right;
+}
+.form-r-bot>li:nth-child(3)>a{
+    color:#e90014;
+}
+.form-r-bot>li>a{
+    color: #666;
+    font-size: 14px;
+}
+/*footer*/
+#footer{
+    clear: both;
+    width: 1200px;
+    margin: 160px auto 0;
+    text-align: center;
+}
+#footer>p{
+    margin: 6px 0;
+    color: #666;
+    font-size: 14px;
+}
+#footer>p:last-child{
+    margin-top: 26px;
+}

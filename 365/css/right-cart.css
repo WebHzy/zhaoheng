@@ -1,0 +1,50 @@
+/*初始化css*/
+body{
+    margin: 0;
+    background: #f5f5f5;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,img,a,input,ol,li{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    border: 0;
+}
+/*right-back*/
+#right-back{
+    width:40px;
+    height:100%;
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: 2px;
+    text-align: center;
+    z-index: 110;
+}
+#right-back>ul{
+    margin-top: 200px;
+}
+#right-back>ul>li{
+    width: 24px;
+    margin: 30px auto;
+}
+#right-back>ul>li:nth-child(3){
+    height: 200px;
+}
+#right-back>ul>li:nth-child(3)>img{
+    margin-top: 20px;
+}
+#right-back>ul>li:nth-child(3)>div{
+    width: 24px;
+    height: 24px;
+    background: #ef353d;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#right-back>ul>li:nth-child(3)>div>span{
+    color: white;
+    font-size: 14px;
+}
+#right-back>ul>li>a{
+    color: white;
+}
